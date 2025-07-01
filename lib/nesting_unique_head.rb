@@ -1,5 +1,6 @@
 # Nested unique header generation
 require 'middleman-core/renderers/redcarpet'
+require 'active_support/core_ext/string/inflections'
 
 class NestingUniqueHeadCounter < Middleman::Renderers::MiddlemanRedcarpetHTML
   def initialize
